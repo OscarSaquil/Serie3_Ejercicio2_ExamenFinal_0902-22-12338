@@ -34,10 +34,10 @@
             this.LabelNombre = new System.Windows.Forms.Label();
             this.LabelCategoría = new System.Windows.Forms.Label();
             this.LabelFecha = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.DatePickerFechaRegistro = new System.Windows.Forms.DateTimePicker();
+            this.TxtCodigo = new System.Windows.Forms.TextBox();
+            this.TxtNombre = new System.Windows.Forms.TextBox();
+            this.TxtCategoria = new System.Windows.Forms.TextBox();
+            this.FechaRegistro = new System.Windows.Forms.DateTimePicker();
             this.BtnRegistrar = new System.Windows.Forms.Button();
             this.BtnLimpiar = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
@@ -64,10 +64,10 @@
             this.RegistroGroupBox.Controls.Add(this.BtnSalir);
             this.RegistroGroupBox.Controls.Add(this.BtnLimpiar);
             this.RegistroGroupBox.Controls.Add(this.BtnRegistrar);
-            this.RegistroGroupBox.Controls.Add(this.DatePickerFechaRegistro);
-            this.RegistroGroupBox.Controls.Add(this.textBox3);
-            this.RegistroGroupBox.Controls.Add(this.textBox2);
-            this.RegistroGroupBox.Controls.Add(this.textBox1);
+            this.RegistroGroupBox.Controls.Add(this.FechaRegistro);
+            this.RegistroGroupBox.Controls.Add(this.TxtCategoria);
+            this.RegistroGroupBox.Controls.Add(this.TxtNombre);
+            this.RegistroGroupBox.Controls.Add(this.TxtCodigo);
             this.RegistroGroupBox.Controls.Add(this.LabelFecha);
             this.RegistroGroupBox.Controls.Add(this.LabelCategoría);
             this.RegistroGroupBox.Controls.Add(this.LabelNombre);
@@ -119,34 +119,34 @@
             this.LabelFecha.Text = "Fecha";
             this.LabelFecha.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox1
+            // TxtCodigo
             // 
-            this.textBox1.Location = new System.Drawing.Point(114, 23);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(175, 20);
-            this.textBox1.TabIndex = 4;
+            this.TxtCodigo.Location = new System.Drawing.Point(114, 23);
+            this.TxtCodigo.Name = "TxtCodigo";
+            this.TxtCodigo.Size = new System.Drawing.Size(175, 20);
+            this.TxtCodigo.TabIndex = 4;
             // 
-            // textBox2
+            // TxtNombre
             // 
-            this.textBox2.Location = new System.Drawing.Point(113, 48);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(175, 20);
-            this.textBox2.TabIndex = 5;
+            this.TxtNombre.Location = new System.Drawing.Point(113, 48);
+            this.TxtNombre.Name = "TxtNombre";
+            this.TxtNombre.Size = new System.Drawing.Size(175, 20);
+            this.TxtNombre.TabIndex = 5;
             // 
-            // textBox3
+            // TxtCategoria
             // 
-            this.textBox3.Location = new System.Drawing.Point(113, 74);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(175, 20);
-            this.textBox3.TabIndex = 6;
+            this.TxtCategoria.Location = new System.Drawing.Point(113, 74);
+            this.TxtCategoria.Name = "TxtCategoria";
+            this.TxtCategoria.Size = new System.Drawing.Size(175, 20);
+            this.TxtCategoria.TabIndex = 6;
             // 
-            // DatePickerFechaRegistro
+            // FechaRegistro
             // 
-            this.DatePickerFechaRegistro.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DatePickerFechaRegistro.Location = new System.Drawing.Point(113, 100);
-            this.DatePickerFechaRegistro.Name = "DatePickerFechaRegistro";
-            this.DatePickerFechaRegistro.Size = new System.Drawing.Size(176, 20);
-            this.DatePickerFechaRegistro.TabIndex = 7;
+            this.FechaRegistro.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.FechaRegistro.Location = new System.Drawing.Point(113, 100);
+            this.FechaRegistro.Name = "FechaRegistro";
+            this.FechaRegistro.Size = new System.Drawing.Size(176, 20);
+            this.FechaRegistro.TabIndex = 7;
             // 
             // BtnRegistrar
             // 
@@ -212,10 +212,10 @@
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Button BtnLimpiar;
         private System.Windows.Forms.Button BtnRegistrar;
-        private System.Windows.Forms.DateTimePicker DatePickerFechaRegistro;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DateTimePicker FechaRegistro;
+        private System.Windows.Forms.TextBox TxtCategoria;
+        private System.Windows.Forms.TextBox TxtNombre;
+        private System.Windows.Forms.TextBox TxtCodigo;
         private System.Windows.Forms.Label LabelFecha;
         private System.Windows.Forms.Label LabelCategoría;
         private System.Windows.Forms.Label LabelNombre;
