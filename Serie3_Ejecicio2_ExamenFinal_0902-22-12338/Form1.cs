@@ -16,5 +16,10 @@ namespace Serie3_Ejecicio2_ExamenFinal_0902_22_12338
         {
             InitializeComponent();
         }
+
+        private void BtnRegistrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
